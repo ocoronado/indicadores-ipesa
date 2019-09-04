@@ -11,6 +11,7 @@ import { UsuarioServicio } from  './servicios/usuario-servicios';
 })
 export class AppComponent  {
   name = 'Angular';
+  //hola
   titulo = 'apoco';
 
   public identity;
