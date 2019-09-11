@@ -227,7 +227,7 @@ export class VentasComponent implements OnInit {
         year --
       }
       indicador.fecha = year + "-" + mes + "-" + "01"
-
+      
       this._IndicadorServicio.guardaIndicador(indicador).subscribe(
         response => {         
         if(!response.indicadorStored){
