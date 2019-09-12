@@ -67,7 +67,7 @@
                 <a [routerLink]="['/indicador', indicador._id ]" class="btn btn-sm btn-primary" style="margin-right:5px">         
                   <span class="glyphicon glyphicon-cog" aria-hidden="true"></span> 
                 </a>
-                <a href="#elimina-{{indicador._id}}" class="btn btn-sm btn-danger" role="button" data-toggle="modal" *ngIf="indicador.tipo != 'muestra'">
+                <a href="#elimina-{{indicador._id}}" class="btn btn-sm btn-danger" role="button" data-toggle="modal" >
                   <span class="glyphicon glyphicon-trash" aria-hidden="true"></span>   
                 </a>
                 <!-- Comienza el modal -->

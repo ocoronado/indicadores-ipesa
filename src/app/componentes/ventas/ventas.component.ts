@@ -155,11 +155,11 @@ export class VentasComponent implements OnInit {
     indicador.resultado = (indicador.parametro[0].recibe / indicador.parametro[1].recibe) * 100;
 
     if(indicador.indi == "Cero interrupciones de servicio no programadas"){
-      if(indicador.parametro[0].ingresa <= 4)
+      if(indicador.parametro[0].recibe <= 4)
       indicador.resultado = 100
-      if(indicador.parametro[0].ingresa == 5)
+      if(indicador.parametro[0].recibe == 5)
       indicador.resultado = 80
-      if(indicador.parametro[0].ingresa >= 6)
+      if(indicador.parametro[0].recibe >= 6)
       indicador.resultado = 30
     }
     //indicador.resultado = indicador.parametro[0].recibe 
