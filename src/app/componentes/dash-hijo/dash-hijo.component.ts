@@ -41,7 +41,7 @@ export class DashHijoComponent implements OnInit {
           this.rango = response.indicadores[0].rango[0]
           this.parametro = response.indicadores[0].parametro[0]
           this.parametro2 = response.indicadores[0].parametro[1]
-          /console.log(this.indicadores)
+          //console.log(this.indicadores)
         }
       },
       error => {
