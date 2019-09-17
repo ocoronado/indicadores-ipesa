@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { Router, ActivatedRoute, Params } from '@angular/router';
 import { UsuarioServicio } from  './servicios/usuario-servicios';
-
+ 
 
 @Component({
   selector: 'my-app',
