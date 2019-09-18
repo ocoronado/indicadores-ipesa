@@ -113,7 +113,7 @@ export class VentasComponent implements OnInit {
     indicador.resultado = (indicador.parametro[0].recibe / indicador.parametro[1].recibe) * 100;
 
     if(indicador.indi == "Cero reclamaciones procedentes de materia prima y producto terminado")
-    indicador.resultado = (indicador.parametro[0].recibe / indicador.parametro[1].recibe) * 100;
+    indicador.resultado = ( 1 - (indicador.parametro[1].ingresa / indicador.parametro[0].ingresa)) *100;
 
     if(indicador.indi == "Lograr el 98 porciento de exactitud en conteos ciclicos de 60 productos")
     indicador.resultado = (indicador.parametro[0].recibe / indicador.parametro[1].recibe) * 100;
