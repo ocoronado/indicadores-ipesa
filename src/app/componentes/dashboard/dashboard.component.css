@@ -68,7 +68,7 @@
   border-color: red;
 }
 
-
+    
 .progress-bar{
   max-width: 100%;
 }
@@ -77,7 +77,7 @@
     min-height: .01%;
     overflow-x: auto;
     overflow-y: auto; 
-    height: 7%;
+    height: 70%;
     
 }
 
